@@ -26,6 +26,7 @@ public class Cliente {
     private Date fechaNacimiento;
 
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JsonIgnore
     private List<Prestamo> prestamos = new ArrayList<>();
 
     public Cliente(String nombre) {
