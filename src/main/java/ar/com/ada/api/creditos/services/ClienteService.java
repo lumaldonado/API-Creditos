@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import ar.com.ada.api.creditos.entities.Cliente;
 import ar.com.ada.api.creditos.repos.ClienteRepository;
 
-// vamos a crear un service con la funcionalidad de traer todos los clientes y de grabar un cliente
+
 @Service
 public class ClienteService {
 
@@ -15,6 +15,7 @@ public class ClienteService {
     //para que todos los objetos que vayamos a instanciar ya vengan pre intanciados de otro lugar
     ClienteRepository repository;
 
+    // vamos a crear un service con la funcionalidad de traer todos los clientes y de grabar un cliente
  public List<Cliente> traerTodos(){
      return repository.findAll();
  }
