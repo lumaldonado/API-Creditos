@@ -1,13 +1,8 @@
 package ar.com.ada.api.creditos.entities;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.*;
-
 import org.hibernate.annotations.NaturalId;
-
 import ar.com.ada.api.creditos.excepciones.*;
-
 import java.util.*;
 
 @Entity
