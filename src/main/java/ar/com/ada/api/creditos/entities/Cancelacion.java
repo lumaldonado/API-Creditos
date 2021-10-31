@@ -14,7 +14,9 @@ public class Cancelacion {
     private int cancelacionId;
 
     @ManyToOne
-    @JoinColumn(name = "prestamo_id", referencedColumnName = "prestamo_id")
+    // primero va el nombre como esta en la tabla de cancelacion (o sea a la que llega la FK)
+    //y en referencedColumnName, va como esta en la tabla de la que viene la FK (o sea prestamo)
+    @JoinColumn(name = "prestamo_id", referencedColumnName = "prestamos_id")
     private Prestamo prestamo;
 
     @Column(name = "fecha_cancelacion")
