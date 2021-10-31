@@ -23,7 +23,7 @@ public class Cancelacion {
     @Column(name = "importe")
     private BigDecimal importeCuota;
     
-    //Número de cuota, no el importe
+   
     @Column(name = "cuota")
     private int numeroCuota;
 

@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ar.com.ada.api.creditos.entities.Prestamo;
 import ar.com.ada.api.creditos.models.request.EstadoPrestamoRequest;
-import ar.com.ada.api.creditos.models.response.GenericResponse;
+import ar.com.ada.api.creditos.models.GenericResponse;
 import ar.com.ada.api.creditos.services.PrestamoService;
 
 @RestController
