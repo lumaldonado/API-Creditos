@@ -6,5 +6,6 @@ Tecnología utilizada: Java Springboot
 
 Data base: MySQL
 
+Deploy usando Heroku: https://creditos-luciana-maldonado.herokuapp.com
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/79877306/140387068-70fefb8e-96ba-41de-9948-572956fb76cd.png)
